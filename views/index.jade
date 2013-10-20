@@ -1,0 +1,13 @@
+!!!5
+html
+  head
+    title #{title} - My Site
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    header
+      h1 #{__('Hello')}
+    .container
+      .main-content
+        h2 #{__('Hello %s, how are you today?', 'John')}
+    footer
+      p Running on node with Express, Jade, i18n
