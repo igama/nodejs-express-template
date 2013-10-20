@@ -1,4 +1,11 @@
 nodejs-express-template
 =======================
 
-NodeJS, Express, Jade and more example
+**IN PROGRES**
+
+- NodeJS
+- Express
+- Jade
+- i18n
+- More stuff soon
+
