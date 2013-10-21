@@ -31,6 +31,7 @@ app.use(i18n.init); // Should always before app.route
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
+app.use(express.compress()); //Gzip
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(express.static(path.join(__dirname, 'app')));
